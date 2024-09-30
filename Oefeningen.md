@@ -57,7 +57,12 @@ Welke extra informatie heb je van dit bedrijf nog nodig ?
 ## Opgave 2: Google (of Facebook, Tiktok, Snapchat, Discord, ...)
 Google is een grote speler die zich sterk heeft moeten aanpassen aan de GDPR wetgeving. Kijk naar de instellingen van je Google account (of van een andere speler zoals Facebook) en link dit met je rechten als EU burger.
 
-## Opgave 3: GDPR boetes
+## Oefening 3: applicatie verbeteren
+Bekijk de applicatie in de app folder die je makkelijk kan opstarten met docker. Indien je feen fan bent van het Python universe, bekijk de alternatieve versie in Spring Boot (of gebruik chatGPT om de opgave om te zetten naar een framework naar keuze !).
+
+Verbeter de code door grove nalatigheden op gebied van GDPR eruit te halen, als dit een API zou zijn die publiek openstaat op internet.
+
+## Opgave 4: GDPR boetes
 Volgende bedrijven hebben allemaal een (fikse) boete gekregen. Ze komen van de Britse ICO, die de gegevens van burgers beschermt. In België is dit de gegevensbeschermingsautoriteit.
 - In november 2018 bracht Marriot International de Information Commissioner's Office (ICO) - de Britse regelgevende instantie voor gegevensbescherming - op de hoogte van een cyberaanval, waarbij ongeveer 339 miljoen gastenrecords werden aangetast. Persoonlijke gegevens, waaronder betalingsgegevens en paspoortnummers, van ongeveer 30 miljoen records met betrekking tot inwoners van de Europese Economische Ruimte (EER) en 7 miljoen met betrekking tot inwoners van het VK werden openbaar gemaakt. De aanval begon in 2014 in de archieven van Starwood Hotels, die later in 2016 door Marriot werden overgenomen.
 Marriot ontdekte de hack in september 2018, en gaf in november een melding. **Toch kregen kregen ze hier een fikse boete voor. Waarom ?**
@@ -65,7 +70,7 @@ Marriot ontdekte de hack in september 2018, en gaf in november een melding. **To
 De boete van slechts 500 000 pond is een peulenschil, want GDPR boetes kunne oplopen tot 4% van de omzet van een bedrijf. **Waarom heeft Facebook geen hogere boete gekregen ?**
 
 
-## Opgave 4: ongeëncrypteerd internet
+## Opgave 5: ongeëncrypteerd internet
 Niet alle website op internet zijn geëncrypteerd. Hier vind je een lijst van lijstje van websites die niet secuur zijn: https://whynohttps.com/
 Neem eens een kijkje naar de websites van België (de lijst is intussen wat outdated).
 
