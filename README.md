@@ -16,7 +16,7 @@ curl -X POST http://localhost:8000/register \
      -d '{
            "username": "newuser",
            "name": "Jane Doe",
-           "email": "jane.doe@example.com",PPPP
+           "email": "jane.doe@example.com",
            "password": "securepassword",
            "ssn": "987-65-4321"
          }'
@@ -28,3 +28,8 @@ Gebruikerdata opvragen:
 ```
 curl -X GET http://localhost:8000/user/newuser
 ```
+
+## Java ?
+
+`docker build -t my-springboot-app .`
+`docker run -d -p 8000:8000 my-springboot-app`
