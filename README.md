@@ -2,11 +2,17 @@
 
 Deze file bevat alle informatie voor het oefenlabo Software Trends rond GDPR
 
-## app in docker containerP
+## app in docker container
 
 `docker build -t my-fastapi-app .`
 
 `docker run -d -p 8000:8000 my-fastapi-app`
+
+## Devcontainer
+
+Run `uvicorn main:app --reload --host 0.0.0.0 --port 8000`
+
+## Gebruik van de API
 
 Een gebruiker registreren:
 
