@@ -1,0 +1,16 @@
+{
+    "name": "FastAPI Dev Container",
+    "dockerFile": "../app/Dockerfile",  // Reuse the existing Dockerfile
+    "context": "../app",  // Context for the Docker build (root folder)
+    "appPort": [8000],  // Expose the port FastAPI runs on
+    "extensions": [
+        "ms-python.python",  // Optional: Python extension
+        "ms-azuretools.vscode-docker"  // Optional: Docker extension for VSCode
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",  // Set the Python interpreter path inside the container
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "postCreateCommand": "pip install --no-cache-dir -r app/requirements.txt",  // Install dependencies
+    "remoteUser": "root"  // Optional: Run as root user in the container
+}
