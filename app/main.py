@@ -19,6 +19,10 @@ class User(BaseModel):
     password: str
     ssn: str
 
+@app.get("/")
+def read_root():
+    return {"message": "FastAPI is running"}
+
 @app.post('/register')
 def register(user: User):
     user_data[user.username] = {
